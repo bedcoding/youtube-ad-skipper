@@ -59,6 +59,7 @@
 | `content.js` | 광고 감지, 음소거와 배속, 표시, 버튼 찾기 |
 | `background.js` | 디버거로 실제 클릭 보내기 |
 | `popup.html`, `popup.js` | 설정 창 |
+| `icons/` | 확장 아이콘 (`icon.svg`가 원본) |
 
 ## 알아둘 점
 

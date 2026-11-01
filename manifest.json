@@ -1,11 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "YouTube 광고 자동 스킵 v1.3.0",
-  "version": "1.3.0",
+  "name": "YouTube 광고 자동 스킵 v1.4.0",
+  "version": "1.4.0",
   "description": "광고 스킵 버튼을 대신 누르고, 광고가 나오는 동안 음소거하고 빠르게 넘깁니다.",
   "permissions": ["debugger", "storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
   },
   "background": {
     "service_worker": "background.js"
